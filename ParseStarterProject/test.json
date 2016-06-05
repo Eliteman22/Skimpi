@@ -1,0 +1,64 @@
+{
+    "provider": [
+                 {
+                 "id": 2852,
+                 "name": "Bank of America",
+                 "loginUrl": "https://secure.bankofamerica.com/login/sign-in/signOnV2Screen.go",
+                 "baseUrl": "http://www.bankofamerica.com/",
+                 "favicon": "https://moneycenter.ydlstatic.com/fastlink/appscenter/siteImage.fastlink.do?access_type=APPS_CENTER_PRODUCTION&siteId=2852&imageType=FAVICON",
+                 "logo": "https://moneycenter.ydlstatic.com/fastlink/appscenter/siteImage.fastlink.do?access_type=APPS_CENTER_PRODUCTION&siteId=2852&imageType=LOGO",
+                 "status": "Supported",
+                 "mfaType": "Question and answer type multi factor authentication.",
+                 "oAuthSite": false,
+                 "lastModified": "2016-03-02T15:46:55Z",
+                 "forgetPasswordUrl": "https://secure.bankofamerica.com/login/sign-in/signOnV2Screen.go",
+                 "containerNames": [
+                                    "creditCard",
+                                    "bill_payment",
+                                    "bank",
+                                    "loan",
+                                    "investment"
+                                    ],
+                 "loginForm": {
+                 "id": 2152,
+                 "forgetPasswordURL": "https://secure.bankofamerica.com/login/sign-in/signOnV2Screen.go",
+                 "formType": "login",
+                 "row": [
+                         {
+                         "id": 5371,
+                         "label": "Online ID",
+                         "form": "0001",
+                         "fieldRowChoice": "0001",
+                         "field": [
+                                   {
+                                   "id": 2863,
+                                   "name": "LOGIN",
+                                   "type": "text",
+                                   "value": "kphun1218",
+                                   "isOptional": false,
+                                   "valueEditable": true
+                                   }
+                                   ]
+                         },
+                         {
+                         "id": 5372,
+                         "label": "Passcode",
+                         "form": "0001",
+                         "fieldRowChoice": "0002",
+                         "field": [
+                                   {
+                                   "id": 2864,
+                                   "name": "PASSWORD",
+                                   "maxLength": 20,
+                                   "type": "password",
+                                   "value": "muaythai1218",
+                                   "isOptional": false,
+                                   "valueEditable": true
+                                   }
+                                   ]
+                         }
+                         ]
+                 }
+                 }
+                 ]
+}
