@@ -43,6 +43,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Remove this line if you don't want to use Local Datastore features or want to use cachePolicy.
         Parse.enableLocalDatastore()
         
+        UITabBar.appearance().backgroundImage = UIImage(named: "NavigationBar")
+        
         let parseConfiguration = ParseClientConfiguration(block: { (ParseMutableClientConfiguration) -> Void in
             ParseMutableClientConfiguration.applicationId = "skimpi"
             ParseMutableClientConfiguration.clientKey = "flavio1996"
@@ -172,3 +174,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     //     return FBAppCall.handleOpenURL(url, sourceApplication:sourceApplication, session:PFFacebookUtils.session())
     // }
 }
+

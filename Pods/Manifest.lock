@@ -3,15 +3,18 @@ PODS:
   - plaid-ios-link (0.1.1):
     - plaid-ios-sdk
   - plaid-ios-sdk (0.3.6)
+  - SwiftGraph (1.0.6)
 
 DEPENDENCIES:
   - Alamofire (~> 3.4)
   - plaid-ios-link
   - plaid-ios-sdk
+  - SwiftGraph
 
 SPEC CHECKSUMS:
   Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
   plaid-ios-link: b508d0cb64007ec036c98ff7f2f0ec1913e8467b
   plaid-ios-sdk: e9865b0fe6a79b3d30d886171d7a26f7e1408935
+  SwiftGraph: 176d7058ab4cedfeef079742c4e4dafaa3d574b6
 
 COCOAPODS: 0.39.0

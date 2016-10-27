@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'FA6BB375DAE51819F2F1791B'
+               BlueprintIdentifier = 'E60FAD5CC87F32CE5B8ED568'
                BlueprintName = 'Pods-Skimpi'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_Skimpi.framework'>

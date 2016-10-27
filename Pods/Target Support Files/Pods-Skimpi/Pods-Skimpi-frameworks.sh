@@ -85,11 +85,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Skimpi/Alamofire.framework"
+  install_framework "Pods-Skimpi/SwiftGraph.framework"
   install_framework "Pods-Skimpi/plaid_ios_link.framework"
   install_framework "Pods-Skimpi/plaid_ios_sdk.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Skimpi/Alamofire.framework"
+  install_framework "Pods-Skimpi/SwiftGraph.framework"
   install_framework "Pods-Skimpi/plaid_ios_link.framework"
   install_framework "Pods-Skimpi/plaid_ios_sdk.framework"
 fi

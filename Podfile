@@ -7,5 +7,6 @@ target 'Skimpi' do
 pod 'plaid-ios-sdk’
 pod ‘plaid-ios-link’
 pod 'Alamofire', '~> 3.4'
+pod ‘SwiftGraph’
 end
 

@@ -18,6 +18,10 @@
 		81BA81791A49E0DB00E65899 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA81781A49E0DB00E65899 /* AudioToolbox.framework */; };
 		81BA817B1A49E0E500E65899 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA817A1A49E0E500E65899 /* SystemConfiguration.framework */; };
 		81BA817F1A49E0F000E65899 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA817E1A49E0F000E65899 /* libstdc++.6.dylib */; };
+		F3437A811D14F88800E747F4 /* BankOfAmericaLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3437A801D14F88800E747F4 /* BankOfAmericaLoginViewController.swift */; };
+		F3437A831D150A1000E747F4 /* ChaseLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3437A821D150A1000E747F4 /* ChaseLoginViewController.swift */; };
+		F35A9BFF1D1243FD00F39822 /* DOBQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35A9BFE1D1243FD00F39822 /* DOBQuizViewController.swift */; };
+		F365CE181D359091005231E6 /* mainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365CE171D359091005231E6 /* mainTabViewController.swift */; };
 		F37F2C1C1D034F45000373E9 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37F2C1B1D034F45000373E9 /* SignupViewController.swift */; };
 		F37F2C1E1D03536F000373E9 /* SpenderQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37F2C1D1D03536F000373E9 /* SpenderQuizViewController.swift */; };
 		F37F2C201D035ABE000373E9 /* SetPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37F2C1F1D035ABE000373E9 /* SetPinViewController.swift */; };
@@ -26,8 +30,29 @@
 		F37F2C261D0448FA000373E9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37F2C251D0448FA000373E9 /* MainViewController.swift */; };
 		F37F2C281D04684C000373E9 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37F2C271D04684C000373E9 /* CategoriesViewController.swift */; };
 		F37F2C2A1D048500000373E9 /* BadgesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37F2C291D048500000373E9 /* BadgesViewController.swift */; };
+		F37F2C2C1D05E1FE000373E9 /* FinicityTrialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37F2C2B1D05E1FE000373E9 /* FinicityTrialViewController.swift */; };
 		F37FD2491D008E2A008AAC53 /* SelectBankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37FD2481D008E2A008AAC53 /* SelectBankViewController.swift */; };
 		F38977411CF4262000B784B8 /* BankSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38977401CF4262000B784B8 /* BankSelectViewController.swift */; };
+		F3DA778B1D1C1EA700E131C8 /* TDLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA778A1D1C1EA700E131C8 /* TDLoginViewController.swift */; };
+		F3DA778D1D1C2B4C00E131C8 /* CitiLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA778C1D1C2B4C00E131C8 /* CitiLoginViewController.swift */; };
+		F3DA778F1D1C2BB600E131C8 /* WellsFargoLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA778E1D1C2BB600E131C8 /* WellsFargoLoginViewController.swift */; };
+		F3DA77911D1C2D3700E131C8 /* CapitalOneLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA77901D1C2D3700E131C8 /* CapitalOneLoginViewController.swift */; };
+		F3DA77931D1C2DF000E131C8 /* CharlesSchwabLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA77921D1C2DF000E131C8 /* CharlesSchwabLoginViewController.swift */; };
+		F3DA77951D1C2E9E00E131C8 /* PNCLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA77941D1C2E9E00E131C8 /* PNCLoginViewController.swift */; };
+		F3DA77971D1C2F4800E131C8 /* FidelityLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA77961D1C2F4800E131C8 /* FidelityLoginViewController.swift */; };
+		F3DA77991D1C302000E131C8 /* USLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA77981D1C302000E131C8 /* USLoginViewController.swift */; };
+		F3DA779B1D1C30D200E131C8 /* NavyFederalLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA779A1D1C30D200E131C8 /* NavyFederalLoginViewController.swift */; };
+		F3DA779D1D1C31AA00E131C8 /* USAALoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA779C1D1C31AA00E131C8 /* USAALoginViewController.swift */; };
+		F3DA779F1D1C328B00E131C8 /* SuntrustLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA779E1D1C328B00E131C8 /* SuntrustLoginViewController.swift */; };
+		F3DA77A11D1C337300E131C8 /* AmExLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA77A01D1C337300E131C8 /* AmExLoginViewController.swift */; };
+		F3DCFC631D12EC3300F7D790 /* IncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DCFC621D12EC3300F7D790 /* IncomeViewController.swift */; };
+		F3DCFC651D1301A600F7D790 /* MaritalStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DCFC641D1301A600F7D790 /* MaritalStatusViewController.swift */; };
+		F3DCFC671D130A6E00F7D790 /* Assesment1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DCFC661D130A6E00F7D790 /* Assesment1ViewController.swift */; };
+		F3DCFC691D1315CF00F7D790 /* Assessment2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DCFC681D1315CF00F7D790 /* Assessment2ViewController.swift */; };
+		F3DCFC6B1D131DF000F7D790 /* Assessment3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DCFC6A1D131DF000F7D790 /* Assessment3ViewController.swift */; };
+		F3DCFC6D1D132AE200F7D790 /* Assesment4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DCFC6C1D132AE200F7D790 /* Assesment4ViewController.swift */; };
+		F3E10FA41D0F25BF00B38415 /* transactions.json in Resources */ = {isa = PBXBuildFile; fileRef = F3E10FA31D0F25BF00B38415 /* transactions.json */; };
+		F3E10FA61D0F785B00B38415 /* transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E10FA51D0F785B00B38415 /* transaction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +73,10 @@
 		81BA81801A49E10C00E65899 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		84A128173EEC048A7D81FAC7 /* Pods_Skimpi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skimpi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31CDEFE2FBCE92F5CC44FB6 /* Pods-Skimpi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skimpi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Skimpi/Pods-Skimpi.release.xcconfig"; sourceTree = "<group>"; };
+		F3437A801D14F88800E747F4 /* BankOfAmericaLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankOfAmericaLoginViewController.swift; sourceTree = "<group>"; };
+		F3437A821D150A1000E747F4 /* ChaseLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChaseLoginViewController.swift; path = ../ChaseLoginViewController.swift; sourceTree = "<group>"; };
+		F35A9BFE1D1243FD00F39822 /* DOBQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOBQuizViewController.swift; sourceTree = "<group>"; };
+		F365CE171D359091005231E6 /* mainTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainTabViewController.swift; sourceTree = "<group>"; };
 		F37F2C1B1D034F45000373E9 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		F37F2C1D1D03536F000373E9 /* SpenderQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpenderQuizViewController.swift; sourceTree = "<group>"; };
 		F37F2C1F1D035ABE000373E9 /* SetPinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetPinViewController.swift; sourceTree = "<group>"; };
@@ -56,9 +85,30 @@
 		F37F2C251D0448FA000373E9 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F37F2C271D04684C000373E9 /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		F37F2C291D048500000373E9 /* BadgesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgesViewController.swift; sourceTree = "<group>"; };
+		F37F2C2B1D05E1FE000373E9 /* FinicityTrialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinicityTrialViewController.swift; sourceTree = "<group>"; };
 		F37FD2481D008E2A008AAC53 /* SelectBankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectBankViewController.swift; sourceTree = "<group>"; };
 		F389773F1CF41C7600B784B8 /* Skimpi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Skimpi-Bridging-Header.h"; sourceTree = "<group>"; };
 		F38977401CF4262000B784B8 /* BankSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankSelectViewController.swift; sourceTree = "<group>"; };
+		F3DA778A1D1C1EA700E131C8 /* TDLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDLoginViewController.swift; sourceTree = "<group>"; };
+		F3DA778C1D1C2B4C00E131C8 /* CitiLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiLoginViewController.swift; sourceTree = "<group>"; };
+		F3DA778E1D1C2BB600E131C8 /* WellsFargoLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WellsFargoLoginViewController.swift; sourceTree = "<group>"; };
+		F3DA77901D1C2D3700E131C8 /* CapitalOneLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapitalOneLoginViewController.swift; sourceTree = "<group>"; };
+		F3DA77921D1C2DF000E131C8 /* CharlesSchwabLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharlesSchwabLoginViewController.swift; sourceTree = "<group>"; };
+		F3DA77941D1C2E9E00E131C8 /* PNCLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNCLoginViewController.swift; sourceTree = "<group>"; };
+		F3DA77961D1C2F4800E131C8 /* FidelityLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FidelityLoginViewController.swift; sourceTree = "<group>"; };
+		F3DA77981D1C302000E131C8 /* USLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USLoginViewController.swift; sourceTree = "<group>"; };
+		F3DA779A1D1C30D200E131C8 /* NavyFederalLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavyFederalLoginViewController.swift; sourceTree = "<group>"; };
+		F3DA779C1D1C31AA00E131C8 /* USAALoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USAALoginViewController.swift; sourceTree = "<group>"; };
+		F3DA779E1D1C328B00E131C8 /* SuntrustLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuntrustLoginViewController.swift; sourceTree = "<group>"; };
+		F3DA77A01D1C337300E131C8 /* AmExLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmExLoginViewController.swift; sourceTree = "<group>"; };
+		F3DCFC621D12EC3300F7D790 /* IncomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomeViewController.swift; sourceTree = "<group>"; };
+		F3DCFC641D1301A600F7D790 /* MaritalStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaritalStatusViewController.swift; sourceTree = "<group>"; };
+		F3DCFC661D130A6E00F7D790 /* Assesment1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assesment1ViewController.swift; sourceTree = "<group>"; };
+		F3DCFC681D1315CF00F7D790 /* Assessment2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assessment2ViewController.swift; sourceTree = "<group>"; };
+		F3DCFC6A1D131DF000F7D790 /* Assessment3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assessment3ViewController.swift; sourceTree = "<group>"; };
+		F3DCFC6C1D132AE200F7D790 /* Assesment4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assesment4ViewController.swift; sourceTree = "<group>"; };
+		F3E10FA31D0F25BF00B38415 /* transactions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = transactions.json; sourceTree = "<group>"; };
+		F3E10FA51D0F785B00B38415 /* transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = transaction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				814C3AC81B69877600E307BB /* Images.xcassets */,
+				F3DA77901D1C2D3700E131C8 /* CapitalOneLoginViewController.swift */,
 				814C3AC91B69877600E307BB /* Info.plist */,
 			);
 			path = Resources;
@@ -119,17 +170,41 @@
 		81BA81471A49DA1800E65899 /* ParseStarterProject */ = {
 			isa = PBXGroup;
 			children = (
+				F3437A821D150A1000E747F4 /* ChaseLoginViewController.swift */,
+				F3E10FA31D0F25BF00B38415 /* transactions.json */,
 				F37F2C271D04684C000373E9 /* CategoriesViewController.swift */,
+				F3437A801D14F88800E747F4 /* BankOfAmericaLoginViewController.swift */,
 				81BA814A1A49DA1800E65899 /* AppDelegate.swift */,
 				F389773F1CF41C7600B784B8 /* Skimpi-Bridging-Header.h */,
 				81BA814C1A49DA1800E65899 /* ViewController.swift */,
 				814C3AC61B69877600E307BB /* Main.storyboard */,
+				F365CE171D359091005231E6 /* mainTabViewController.swift */,
+				F3DA77A01D1C337300E131C8 /* AmExLoginViewController.swift */,
+				F3DA779E1D1C328B00E131C8 /* SuntrustLoginViewController.swift */,
+				F3DA779C1D1C31AA00E131C8 /* USAALoginViewController.swift */,
+				F3DA779A1D1C30D200E131C8 /* NavyFederalLoginViewController.swift */,
+				F3DA77981D1C302000E131C8 /* USLoginViewController.swift */,
+				F3DA77961D1C2F4800E131C8 /* FidelityLoginViewController.swift */,
+				F3DA77941D1C2E9E00E131C8 /* PNCLoginViewController.swift */,
+				F3DA77921D1C2DF000E131C8 /* CharlesSchwabLoginViewController.swift */,
+				F3DA778E1D1C2BB600E131C8 /* WellsFargoLoginViewController.swift */,
+				F3DA778C1D1C2B4C00E131C8 /* CitiLoginViewController.swift */,
+				F3DA778A1D1C1EA700E131C8 /* TDLoginViewController.swift */,
+				F3DCFC6C1D132AE200F7D790 /* Assesment4ViewController.swift */,
+				F35A9BFE1D1243FD00F39822 /* DOBQuizViewController.swift */,
+				F3E10FA51D0F785B00B38415 /* transaction.swift */,
+				F37F2C2B1D05E1FE000373E9 /* FinicityTrialViewController.swift */,
 				F37F2C291D048500000373E9 /* BadgesViewController.swift */,
 				F37F2C251D0448FA000373E9 /* MainViewController.swift */,
 				F37F2C231D041FB6000373E9 /* CongratsViewController.swift */,
 				F37F2C1F1D035ABE000373E9 /* SetPinViewController.swift */,
 				F37F2C1D1D03536F000373E9 /* SpenderQuizViewController.swift */,
 				F37F2C1B1D034F45000373E9 /* SignupViewController.swift */,
+				F3DCFC6A1D131DF000F7D790 /* Assessment3ViewController.swift */,
+				F3DCFC661D130A6E00F7D790 /* Assesment1ViewController.swift */,
+				F3DCFC641D1301A600F7D790 /* MaritalStatusViewController.swift */,
+				F3DCFC681D1315CF00F7D790 /* Assessment2ViewController.swift */,
+				F3DCFC621D12EC3300F7D790 /* IncomeViewController.swift */,
 				F37FD2481D008E2A008AAC53 /* SelectBankViewController.swift */,
 				F37F2C211D03D76D000373E9 /* test.json */,
 				F38977401CF4262000B784B8 /* BankSelectViewController.swift */,
@@ -224,6 +299,7 @@
 			files = (
 				814C3ACA1B69877600E307BB /* Main.storyboard in Resources */,
 				814C3ACB1B69877600E307BB /* Images.xcassets in Resources */,
+				F3E10FA41D0F25BF00B38415 /* transactions.json in Resources */,
 				F37F2C221D03D76D000373E9 /* test.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,17 +359,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3437A811D14F88800E747F4 /* BankOfAmericaLoginViewController.swift in Sources */,
 				F37FD2491D008E2A008AAC53 /* SelectBankViewController.swift in Sources */,
 				81BA814D1A49DA1800E65899 /* ViewController.swift in Sources */,
 				F37F2C1C1D034F45000373E9 /* SignupViewController.swift in Sources */,
+				F3DA77911D1C2D3700E131C8 /* CapitalOneLoginViewController.swift in Sources */,
 				F37F2C1E1D03536F000373E9 /* SpenderQuizViewController.swift in Sources */,
+				F3DA779B1D1C30D200E131C8 /* NavyFederalLoginViewController.swift in Sources */,
+				F3437A831D150A1000E747F4 /* ChaseLoginViewController.swift in Sources */,
 				F37F2C281D04684C000373E9 /* CategoriesViewController.swift in Sources */,
 				F37F2C201D035ABE000373E9 /* SetPinViewController.swift in Sources */,
+				F3DCFC631D12EC3300F7D790 /* IncomeViewController.swift in Sources */,
+				F3DA778D1D1C2B4C00E131C8 /* CitiLoginViewController.swift in Sources */,
+				F365CE181D359091005231E6 /* mainTabViewController.swift in Sources */,
+				F3DA778B1D1C1EA700E131C8 /* TDLoginViewController.swift in Sources */,
 				F38977411CF4262000B784B8 /* BankSelectViewController.swift in Sources */,
+				F3DA778F1D1C2BB600E131C8 /* WellsFargoLoginViewController.swift in Sources */,
+				F3DA77991D1C302000E131C8 /* USLoginViewController.swift in Sources */,
+				F3DA77971D1C2F4800E131C8 /* FidelityLoginViewController.swift in Sources */,
 				F37F2C261D0448FA000373E9 /* MainViewController.swift in Sources */,
+				F3DCFC671D130A6E00F7D790 /* Assesment1ViewController.swift in Sources */,
+				F3DA77951D1C2E9E00E131C8 /* PNCLoginViewController.swift in Sources */,
+				F3DA77931D1C2DF000E131C8 /* CharlesSchwabLoginViewController.swift in Sources */,
+				F3DA779F1D1C328B00E131C8 /* SuntrustLoginViewController.swift in Sources */,
 				F37F2C2A1D048500000373E9 /* BadgesViewController.swift in Sources */,
+				F3DCFC6D1D132AE200F7D790 /* Assesment4ViewController.swift in Sources */,
 				81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */,
+				F3DCFC6B1D131DF000F7D790 /* Assessment3ViewController.swift in Sources */,
+				F3DCFC651D1301A600F7D790 /* MaritalStatusViewController.swift in Sources */,
+				F3DA779D1D1C31AA00E131C8 /* USAALoginViewController.swift in Sources */,
+				F37F2C2C1D05E1FE000373E9 /* FinicityTrialViewController.swift in Sources */,
 				F37F2C241D041FB6000373E9 /* CongratsViewController.swift in Sources */,
+				F3DCFC691D1315CF00F7D790 /* Assessment2ViewController.swift in Sources */,
+				F3DA77A11D1C337300E131C8 /* AmExLoginViewController.swift in Sources */,
+				F3E10FA61D0F785B00B38415 /* transaction.swift in Sources */,
+				F35A9BFF1D1243FD00F39822 /* DOBQuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

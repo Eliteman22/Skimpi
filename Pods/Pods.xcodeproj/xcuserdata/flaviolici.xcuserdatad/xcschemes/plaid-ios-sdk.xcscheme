@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'BB64BE5918813A3492DEB4AE'
+               BlueprintIdentifier = '373F76CEA830B6417BC72310'
                BlueprintName = 'plaid-ios-sdk'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'plaid_ios_sdk.framework'>
